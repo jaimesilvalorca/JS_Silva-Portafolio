@@ -18,11 +18,20 @@
     background-color: black;
 }
 
+
 .list-nav li {
     list-style: none;
     display: inline-block;
     margin: 0 50px;
+    transition: 4s;      
 }
+
+.list-nav li:hover {
+    transform: rotate(360deg);
+
+    
+}
+
 
 .list-nav li a {
     text-decoration: none;
@@ -83,9 +92,15 @@
 
 }
 
+
 .icon-section .icons i {
     font-size: 80px;
+    transition: 4s;
 
+}
+
+.icon-section .icons i:hover{
+    transform: rotate(360deg);
 }
 
 .icon-section .icons h3 {
