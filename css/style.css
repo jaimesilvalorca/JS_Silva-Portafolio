@@ -30,7 +30,7 @@
 
 
 .intro {
-    padding-bottom: 150px;
+    height: auto;
     background-color: beige;
     border: solid;
     border-color: black;
@@ -89,6 +89,7 @@ footer {
     text-align: center;
     color: white;
     font-weight: bold;
+    height: auto;
 
 }
 
