@@ -6,7 +6,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>About</title>
-    <link rel="shortcut icon" href="./assets/img/favicon.ico" type="image/x-icon">
+    <link rel="shortcut icon" href="../assets/img/favicon.ico" type="image/x-icon">
     <script src="https://kit.fontawesome.com/0d6044bda3.js" crossorigin="anonymous"></script>
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -19,21 +19,38 @@
 
 <body>
     <header>
-        <nav class="navbar">
-            <a href="../index.html">
-                <img class="img-navbar" src="../assets/img/logo.png" alt="Logo de la pagina"></a>
-            <ul class="list-nav">
-                <li><a href="../index.html">Home </a></li>
-                <li><a href="./about.html">About </a></li>
-                <li><a href="./galeria.html">Gallery </a></li>
-                <li><a href="./Devs.html">Devs </a></li>
-                <li><a href="#">Contact</a></li>
-            </ul>
-
+        <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+            <div class="container-fluid">
+              <a class="navbar-brand" href="#"><img src="../assets/img/logo.png" alt="logo navbar"></a>
+              <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+              </button>
+              <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+                <div class="navbar-nav">
+                  <a class="nav-link active" aria-current="page" href="../index.html">Inicio</a>
+                  <a class="nav-link" href="./about.html">About</a>
+                  <a class="nav-link" href="./Devs.html">Developers</a>
+                  <a class="nav-link" href="./galeria.html">Gallery</a>
+                  <a class="nav-link" href="#">Contact</a>
+                </div>
+              </div>
+            </div>
+          </nav>
     </header>
 
     <main class="form">
-        <form action="procesar.php" method="post">
+        <form>
+            <div class="mb-3">
+              <label for="exampleInputEmail1" class="form-label">Correo</label>
+              <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp">
+            </div>
+            <div class="mb-3">
+              <label for="exampleInputPassword1" class="form-label">Mensaje</label>
+              <input type="password" class="form-control" id="exampleInputPassword1">
+            </div>
+            <button type="submit" class="btn btn-primary">Enviar!</button>
+          </form>
+        <!-- <form action="procesar.php" method="post">
             <fieldset>
                 <legend>Formulario de Contacto</legend>
                 <p>
@@ -56,10 +73,7 @@
 
 
             </fieldset>
-        </form>
-
-
-
+        </form> -->
     </main>
     <footer>
         <p>Todos los derechos reservados JS</p>
