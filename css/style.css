@@ -256,7 +256,6 @@ main {
     display: grid;
     grid-template-rows: repeat(2,1fr);
     justify-items: center;
-    align-items: center;
     text-align: center;
     color: #fff;
 }
