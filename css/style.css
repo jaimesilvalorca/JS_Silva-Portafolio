@@ -211,8 +211,7 @@ main {
     width: auto;
     margin: 50px auto;
     display: grid;
-    grid-template-columns: repeat(3,2fr);
-    grid-template-rows: repeat(1,fr);
+    grid-template-columns: repeat(3,1fr);
     justify-items: center;;
 }
 
@@ -284,7 +283,6 @@ main {
     height: 80px;
     width: 80px;
 }
-
 
 .main-devs{
     min-height: 90vh;
