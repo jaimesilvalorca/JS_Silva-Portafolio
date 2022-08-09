@@ -203,7 +203,7 @@ main {
 .title-devs {
     font-size: 50px;
     text-align: center;
-    padding-bottom: 80px;
+    padding-bottom: 1rem;
 }
 
 
@@ -282,6 +282,7 @@ main {
 
 .main-devs{
     min-height: 90vh;
+    background-color:rgb(219, 219, 219);
 }
 
 .main-index{
@@ -408,11 +409,12 @@ main {
     
     .wrap{
         width: auto;
-        margin: 50px auto;
+        margin: auto;
         display: grid;
         grid-template-columns: repeat(1,1fr);
         grid-template-rows: repeat(1,fr);
         justify-items: center;;
+        background-color: rgb(219, 219, 219);
     }
         
 }
@@ -513,6 +515,11 @@ main {
 
     /*devs*/
 
+    .main-devs{
+        background-color: rgb(219, 219, 219);
+        height: auto;
+    }
+
     .title-devs {
         font-size: 50px;
         text-align: center;
@@ -520,10 +527,10 @@ main {
 
     .wrap{
         width: auto;
-        margin: 50px auto;
+        margin: auto;
         display: grid;
         grid-template-columns: repeat(1,1fr);
         grid-template-rows: repeat(1,fr);
-        justify-items: center;;
+        justify-items: center;
     }
 }
