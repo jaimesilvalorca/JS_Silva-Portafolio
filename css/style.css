@@ -260,6 +260,10 @@ main {
     color: #fff;
 }
 
+.back p{
+    margin-top: 60px;
+}
+
 .card-wrap:hover .cards{
     transform: rotateY(180deg);
 }
@@ -279,6 +283,7 @@ main {
 }
 
 .hongo{
+    margin-top: 20px;
     height: 80px;
     width: 80px;
 }
