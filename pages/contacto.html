@@ -39,45 +39,28 @@
     </header>
 
     <main class="form">
-        <form>
-            <div class="mb-3">
-              <label for="exampleInputEmail1" class="form-label">Correo</label>
-              <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp">
-            </div>
-            <div class="mb-3">
-              <label for="exampleInputPassword1" class="form-label">Mensaje</label>
-              <input type="password" class="form-control" id="exampleInputPassword1">
-            </div>
-            <button type="submit" class="btn btn-primary">Enviar!</button>
-          </form>
-
-          <div class="homerpage">
-                       
-          </div>
-        <!-- <form action="procesar.php" method="post">
-            <fieldset>
-                <legend>Formulario de Contacto</legend>
-                <p>
-                    <label><b>Nombre</b>
-                        <br>
-                        <input type="text" name="Nombre" placeholder="Nombre" required>
-                    </label>
-                </p>
-                <p>
-                    <label><b>Email</b>
-                        <br>
-                        <input type="text" name="Email" placeholder="contacto@contaco.com" required>
-                    </label>
-                </p>
-                <h4>Asunto</h4>
-                <textarea name="comentario" id="" cols="20" rows="2"></textarea>
-                <p>
-                    <button type="submit">Enviar</button>
-                </p>
-
-
-            </fieldset>
-        </form> -->
+                <div class="container py-4">
+                    <form id="contactForm">
+                        <div class="mb-3">
+                            <label class="form-label" for="name">Nombre</label>
+                            <input class="form-control" id="name" type="text" placeholder="Ingrese su nombre"
+                                data-sb-validations="required" />
+                        </div>
+                        <div class="mb-3">
+                            <label class="form-label" for="emailAddress">Correo</label>
+                            <input class="form-control" id="emailAddress" type="email" placeholder="Ingrese su correo"
+                                data-sb-validations="required, email" />
+                        </div>
+                        <div class="mb-3">
+                            <label class="form-label" for="message">Mensaje</label>
+                            <textarea class="form-control" id="message" type="text" placeholder="Mensaque que quiere enviar"
+                                style="height: 10rem;" data-sb-validations="required"></textarea>
+                        </div>
+                        <div class="d-grid">
+                            <button class="btn btn-light btn-lg enabled" id="submitButton" type="submit">Enviar</button>
+                        </div>
+                    </form>
+                </div>
     </main>
     <footer>
         <p>Todos los derechos reservados JS</p>

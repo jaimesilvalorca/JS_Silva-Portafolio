@@ -231,8 +231,7 @@ main {
 }
 
 .form{
-    width: auto;
-    height: auto;
+    min-height: 85vh;
 }
 
 
