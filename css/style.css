@@ -206,15 +206,79 @@ main {
     padding-bottom: 80px;
 }
 
-.devs-cards{
+
+.wrap{
+    width: auto;
+    margin: 50px auto;
     display: grid;
-    grid-template-columns: repeat(3, 1fr);
-    grid-template-rows: repeat(1, fr);
-    max-width: 100%;
-    height: auto;
-    justify-items: center;
-    grid-row-gap: 30px; 
+    grid-template-columns: repeat(3,2fr);
+    grid-template-rows: repeat(1,fr);
+    justify-items: center;;
 }
+
+.dev-tittle{
+    text-align: center;
+}
+
+.card-wrap{
+    margin: 10px;
+    -webkit-perspective: 800;
+    perspective: 800;
+}
+
+.cards{
+    width: 300px;
+    height: 350px;
+    background: white;
+    transform-style: preserve-3d;
+    transition: 0.7s ease;
+    -webkit-box-shadow: 0px 10px 15px -5px rgba(0,0,0,0.65);
+    -moz-box-shadow:  0px 10px 15px -5px rgba(0,0,0,0.65);
+    box-shadow:  0px 10px 15px -5px rgba(0,0,0,0.65);;
+
+}
+
+.front, .back{
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    -webkit-backface-visibility: hidden;
+    backface-visibility: hidden;
+}
+
+.front{
+    width: 100%;
+}
+
+.back{
+    transform: rotateY(180deg);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    color: #fff;
+}
+
+.card-wrap:hover .cards{
+    transform: rotateY(180deg);
+}
+
+.card1{
+    background-image: url(../assets/img/dev\ 1.png);
+    background-size: cover;
+}
+
+.card2{
+    background-image: url(../assets/img/dev3.png);
+    background-size: cover;
+}
+.card3{
+    background-image: url(../assets/img/dev4.png);
+    background-size: cover;
+}
+
 
 .main-devs{
     min-height: 90vh;
@@ -342,12 +406,14 @@ main {
         text-align: center;
     }
     
-    .devs-cards{
+    .wrap{
+        width: auto;
+        margin: 50px auto;
         display: grid;
-        grid-template-columns: repeat(2, 1fr);
-        grid-template-rows: repeat(2, fr);
-        max-width: 100%;
-        height: auto;}
+        grid-template-columns: repeat(1,1fr);
+        grid-template-rows: repeat(1,fr);
+        justify-items: center;;
+    }
         
 }
 
@@ -451,13 +517,13 @@ main {
         font-size: 50px;
         text-align: center;
     }
-    
-    .devs-cards{
+
+    .wrap{
+        width: auto;
+        margin: 50px auto;
         display: grid;
-        grid-template-columns: repeat(1, 3fr);
-        grid-template-rows: repeat(1, fr);
-        max-width: 100%;
-        height: auto;
-        justify-items: center;
+        grid-template-columns: repeat(1,1fr);
+        grid-template-rows: repeat(1,fr);
+        justify-items: center;;
     }
 }
