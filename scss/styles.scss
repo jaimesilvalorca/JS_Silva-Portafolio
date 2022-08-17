@@ -1,15 +1,13 @@
-@import "colors";
+@import "vars";
+@import "mixin";
+@import "galleryimg";
 
 * {
-    padding: 0;
-    margin: 0;
-    box-sizing: border-box;
-    font-family: 'Edu SA Beginner', cursive;
-    color: black;
+    @include resetnav;
 }
 
 .navbar {
-    background-color: $nav-color  !important;
+    background-color: map-get($colors, "nav-color" )  !important;
 }
 
 .navbar-nav {
@@ -36,6 +34,7 @@
 }
 
 .middle-tittle {
+    
     h2 {
         text-align: center;
         font-size: 40px;
@@ -45,7 +44,6 @@
         padding: 20px 300px 50px 300px;
         margin: auto;
     }
-
 }
 
 .intro {
@@ -128,8 +126,8 @@ main {
 .text-me {
     display: grid;
     grid-template-rows: repeat(3);
-    h1 {
 
+    h1 {
         text-align: center;
         font-size: 130px;
         font-weight: bold;
@@ -144,16 +142,11 @@ main {
 }
 
 .text-1 {
-    text-align: justify;
-    font-size: 25px;
-
-
+    @include txt-fontsiz;
 }
 
 .text-2 {
-    text-align: justify;
-    font-size: 25px;
-
+    @include txt-fontsiz;
 }
 
 .img-about {
@@ -178,23 +171,22 @@ main {
 .container-gallery {
     display: grid;
     grid-template-columns: repeat(3, 1fr);
-    grid-template-rows: repeat(3, fr);
+    grid-template-rows: repeat(3, 1fr);
     justify-items: center;
     grid-row-gap: 10px;
 }
 
-.container-gallery-img {
+.container-gallery-img{
     img {
-        width: 350px;
-        height: 350px;
-    }
-    p {
-        text-align: center;
-        font-size: larger;
-        font-weight: bold;
+        @extend .container-gallery-imgs;
     }
 
+    p {
+        @extend .container-gallery-p;
+    }
 }
+
+
 
 /*developers */
 
@@ -269,17 +261,17 @@ main {
 
 .card1 {
     background-image: url(../assets/img/dev\ 1.png);
-    background-size: cover;
+    background-size: $cov;
 }
 
 .card2 {
     background-image: url(../assets/img/dev3.png);
-    background-size: cover;
+    background-size: $cov;
 }
 
 .card3 {
     background-image: url(../assets/img/dev4.png);
-    background-size: cover;
+    background-size: $cov;
 }
 
 .hongo {
@@ -450,7 +442,6 @@ main {
             font-size: medium;
             text-align: center;    
         }
-
     }
 
     .me {

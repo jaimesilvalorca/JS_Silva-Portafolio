@@ -1,3 +1,14 @@
+.container-gallery-imgs, .container-gallery-img img {
+  width: 350px;
+  height: 350px;
+}
+
+.container-gallery-p, .container-gallery-img p {
+  text-align: center;
+  font-size: larger;
+  font-weight: bold;
+}
+
 * {
   padding: 0;
   margin: 0;
@@ -162,19 +173,9 @@ main {
 .container-gallery {
   display: grid;
   grid-template-columns: repeat(3, 1fr);
-  grid-template-rows: repeat(3, fr);
+  grid-template-rows: repeat(3, 1fr);
   justify-items: center;
   grid-row-gap: 10px;
-}
-
-.container-gallery-img img {
-  width: 350px;
-  height: 350px;
-}
-.container-gallery-img p {
-  text-align: center;
-  font-size: larger;
-  font-weight: bold;
 }
 
 /*developers */
