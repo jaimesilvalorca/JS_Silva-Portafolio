@@ -186,6 +186,8 @@ main {
 .gallerylist img {
   width: 100%;
   height: 90%;
+  border-radius: 10px;
+  box-shadow: inset;
 }
 
 .gallerylist img:hover {
@@ -241,6 +243,7 @@ main {
   max-width: 100%;
   border: 7px solid white;
   box-sizing: border-box;
+  border-radius: 10px;
 }
 
 .back-gallery {
