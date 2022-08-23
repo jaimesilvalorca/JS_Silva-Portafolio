@@ -1,8 +1,22 @@
 @import "vars";
 
 @mixin txt-fontsiz{
+    box-sizing: border-box;
     text-align: justify;
     font-size: 25px;
+    padding-left: 10%;
+    padding-right: 10%;
+    margin: auto;
+}
+
+@mixin txt-fontsiz2{
+    box-sizing: border-box;
+    text-align: justify;
+    font-size: 25px;
+    padding-left: 10%;
+    padding-right: 10%;
+    margin: auto;
+    padding-bottom: 5%;
 }
 
 @mixin grid-template3-center{
