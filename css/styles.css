@@ -143,6 +143,7 @@ main {
   background-image: url(../assets/img/cover1.jpg);
   background-size: cover;
   opacity: 90%;
+  border: 15px solid rgb(219, 219, 219);
 }
 
 .desc-section img {
@@ -516,6 +517,12 @@ main {
     padding-left: 5%;
     padding-right: 5%;
     width: 100%;
+  }
+  .img-about img {
+    height: 200px;
+    width: 200px;
+    border-radius: 50%;
+    border: solid white;
   }
   .text-me {
     flex-direction: column;
