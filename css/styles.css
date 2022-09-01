@@ -633,7 +633,8 @@ main {
   .main-index {
     background-color: black;
     display: grid;
-    grid-template-columns: repeat(2, 1fr);
+    grid-template-columns: repeat(1, 1fr);
+    grid-template-rows: repeat(2, 1fr);
     justify-items: center;
   }
   .main-index h2 {
@@ -642,8 +643,8 @@ main {
     text-align: center;
   }
   .main-index img {
-    height: 250px;
-    width: 200px;
+    height: 300px;
+    width: 250px;
     border: solid black 30px;
   }
   .main-index p {
