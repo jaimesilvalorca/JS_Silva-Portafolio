@@ -497,8 +497,50 @@ main {
 
 /*tablet*/
 @media only screen and (max-width: 768px) {
-  .carousel .carousel-inner .carousel-item img {
-    height: 300px;
+  .tittle--index h1 {
+    padding-top: 15%;
+    font-family: monospace;
+    color: white;
+    text-align: center;
+    font-size: 8rem;
+    margin: 0%;
+  }
+  .tittle--index p {
+    text-align: center;
+    color: white;
+    font-family: monospace;
+    font-size: 5rem;
+  }
+  .main-index {
+    background-color: black;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    justify-items: center;
+  }
+  .main-index h2 {
+    color: white;
+    font-size: 2rem;
+    text-align: center;
+  }
+  .main-index img {
+    height: 700px;
+    width: 600px;
+    border: solid black 30px;
+  }
+  .main-index p {
+    text-align: justify;
+    color: white;
+    font-size: 1rem;
+  }
+  .container-index {
+    display: inline-block;
+    margin: 5%;
+    padding-top: 30%;
+  }
+  .container-img {
+    display: flex;
+    justify-items: center;
+    align-items: center;
   }
   .middle-tittle p {
     width: 100%;
@@ -573,6 +615,51 @@ main {
     color: white;
     font-family: monospace;
     font-size: 2rem;
+  }
+  .tittle--index h1 {
+    padding-top: 15%;
+    font-family: monospace;
+    color: white;
+    text-align: center;
+    font-size: 4rem;
+    margin: 0%;
+  }
+  .tittle--index p {
+    text-align: center;
+    color: white;
+    font-family: monospace;
+    font-size: 2rem;
+  }
+  .main-index {
+    background-color: black;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    justify-items: center;
+  }
+  .main-index h2 {
+    color: white;
+    font-size: 2rem;
+    text-align: center;
+  }
+  .main-index img {
+    height: 250px;
+    width: 200px;
+    border: solid black 30px;
+  }
+  .main-index p {
+    text-align: justify;
+    color: white;
+    font-size: 1.5rem;
+  }
+  .container-index {
+    display: inline-block;
+    margin: 5%;
+    padding-top: 30%;
+  }
+  .container-img {
+    display: flex;
+    justify-items: center;
+    align-items: center;
   }
   .cover h1 {
     font-size: 25px;
