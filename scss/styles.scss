@@ -517,25 +517,73 @@ main {
     min-height: 85vh;
 }
 
+/*Desktop*/
+
+@media screen and (max-width: 1024px) { 
+
+    .tittle--index{    
+        margin-top: 10%;
+        margin-left: 25%;
+        h1{
+            display: block;
+            font-family: monospace;
+            white-space: nowrap;
+            border-right: 4px solid;
+            font-size: 4rem;
+            color: white;
+            width: 17ch;
+            animation: typing 2s steps(17), blink .5s infinite step-end alternate;
+            overflow: hidden;
+        }
+    
+        @keyframes typing {
+            from{
+                width: 0;            
+            }
+        }
+        
+        @keyframes blink {
+            50%{ border-color:transparent;}
+        }
+    
+        p{
+            overflow: hidden;
+        }
+    }
+}
+
+
 
 /*tablet*/
 
 @media only screen and (max-width:768px) {
 
-    .tittle--index{
+    .tittle--index{  
+        margin-top: 30%;  
         h1{
-            padding-top: 15%;
+            display: block;
             font-family: monospace;
+            white-space: nowrap;
+            border-right: 4px solid;
+            font-size: 3rem;
             color: white;
-            text-align: center;
-            font-size: 8rem;
-            margin: 0%;
+            width: 17ch;
+            animation: typing 2s steps(17), blink .5s infinite step-end alternate;
+            overflow: hidden;
         }
+    
+        @keyframes typing {
+            from{
+                width: 0;            
+            }
+        }
+        
+        @keyframes blink {
+            50%{ border-color:transparent;}
+        }
+    
         p{
-            text-align: center;
-            color: white;
-            font-family: monospace;
-            font-size: 5rem;
+            overflow: hidden;
         }
     }
     
@@ -653,37 +701,28 @@ main {
 
     /* index */
 
-    .tittle--index {
-        h1{
-            padding-top: 40%;
-            font-family: monospace;
-            color: white;
-            text-align: center;
-            font-size: 4rem;
-            margin: 0%;
-        }
-        p{
-            text-align: center;
-            color: white;
-            font-family: monospace;
-            font-size: 2rem;
-        }
-    }
+    .tittle--index{    
+        margin-top: 60%;
+        margin-left:10%;
 
-    .tittle--index{
         h1{
-            padding-top: 15%;
             font-family: monospace;
+            border-right: 4px solid;
+            font-size: 30px;
             color: white;
-            text-align: center;
-            font-size: 4rem;
-            margin: 0%;
+            animation: typing 2s steps(17), blink .5s infinite step-end alternate;
+            overflow: hidden;
+            word-wrap: break-word;
         }
-        p{
-            text-align: center;
-            color: white;
-            font-family: monospace;
-            font-size: 2rem;
+    
+        @keyframes typing {
+            from{
+                width: 0;            
+            }
+        }
+        
+        @keyframes blink {
+            50%{ border-color:transparent;}
         }
     }
     

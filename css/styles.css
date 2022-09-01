@@ -520,21 +520,87 @@ main {
   min-height: 85vh;
 }
 
-/*tablet*/
-@media only screen and (max-width: 768px) {
+/*Desktop*/
+@media screen and (max-width: 1024px) {
+  .tittle--index {
+    margin-top: 10%;
+    margin-left: 25%;
+  }
   .tittle--index h1 {
-    padding-top: 15%;
+    display: block;
     font-family: monospace;
+    white-space: nowrap;
+    border-right: 4px solid;
+    font-size: 4rem;
     color: white;
-    text-align: center;
-    font-size: 8rem;
-    margin: 0%;
+    width: 17ch;
+    -webkit-animation: typing 2s steps(17), blink 0.5s infinite step-end alternate;
+            animation: typing 2s steps(17), blink 0.5s infinite step-end alternate;
+    overflow: hidden;
+  }
+  @-webkit-keyframes typing {
+    from {
+      width: 0;
+    }
+  }
+  @keyframes typing {
+    from {
+      width: 0;
+    }
+  }
+  @-webkit-keyframes blink {
+    50% {
+      border-color: transparent;
+    }
+  }
+  @keyframes blink {
+    50% {
+      border-color: transparent;
+    }
   }
   .tittle--index p {
-    text-align: center;
-    color: white;
+    overflow: hidden;
+  }
+}
+/*tablet*/
+@media only screen and (max-width: 768px) {
+  .tittle--index {
+    margin-top: 30%;
+  }
+  .tittle--index h1 {
+    display: block;
     font-family: monospace;
-    font-size: 5rem;
+    white-space: nowrap;
+    border-right: 4px solid;
+    font-size: 3rem;
+    color: white;
+    width: 17ch;
+    -webkit-animation: typing 2s steps(17), blink 0.5s infinite step-end alternate;
+            animation: typing 2s steps(17), blink 0.5s infinite step-end alternate;
+    overflow: hidden;
+  }
+  @-webkit-keyframes typing {
+    from {
+      width: 0;
+    }
+  }
+  @keyframes typing {
+    from {
+      width: 0;
+    }
+  }
+  @-webkit-keyframes blink {
+    50% {
+      border-color: transparent;
+    }
+  }
+  @keyframes blink {
+    50% {
+      border-color: transparent;
+    }
+  }
+  .tittle--index p {
+    overflow: hidden;
   }
   .main-index {
     background-color: black;
@@ -627,33 +693,39 @@ main {
     flex-direction: column;
   }
   /* index */
-  .tittle--index h1 {
-    padding-top: 40%;
-    font-family: monospace;
-    color: white;
-    text-align: center;
-    font-size: 4rem;
-    margin: 0%;
-  }
-  .tittle--index p {
-    text-align: center;
-    color: white;
-    font-family: monospace;
-    font-size: 2rem;
+  .tittle--index {
+    margin-top: 60%;
+    margin-left: 10%;
   }
   .tittle--index h1 {
-    padding-top: 15%;
     font-family: monospace;
+    border-right: 4px solid;
+    font-size: 30px;
     color: white;
-    text-align: center;
-    font-size: 4rem;
-    margin: 0%;
+    -webkit-animation: typing 2s steps(17), blink 0.5s infinite step-end alternate;
+            animation: typing 2s steps(17), blink 0.5s infinite step-end alternate;
+    overflow: hidden;
+    word-wrap: break-word;
   }
-  .tittle--index p {
-    text-align: center;
-    color: white;
-    font-family: monospace;
-    font-size: 2rem;
+  @-webkit-keyframes typing {
+    from {
+      width: 0;
+    }
+  }
+  @keyframes typing {
+    from {
+      width: 0;
+    }
+  }
+  @-webkit-keyframes blink {
+    50% {
+      border-color: transparent;
+    }
+  }
+  @keyframes blink {
+    50% {
+      border-color: transparent;
+    }
   }
   .main-index {
     background-color: black;
