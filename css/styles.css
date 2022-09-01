@@ -75,8 +75,8 @@
   text-align: center;
 }
 .main-index img {
-  height: 1000px;
-  width: 900px;
+  height: 800px;
+  width: auto;
   border: solid black 30px;
 }
 .main-index p {
