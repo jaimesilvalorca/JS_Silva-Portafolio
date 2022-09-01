@@ -13,7 +13,7 @@
 .header-index{
     background: url(../assets/img/header9.jpg) no-repeat center;
     background-size: cover;
-    min-height: 100vh;
+    min-height: 80vh;
    }
 
 .navbar-nav {
@@ -38,20 +38,33 @@
     color: white;
 }
 
-.tittle--index{
+.tittle--index{    
+    margin-top: 10%;
+    margin-left: 25%;
     h1{
-        padding-top: 15%;
+        display: block;
         font-family: monospace;
+        white-space: nowrap;
+        border-right: 4px solid;
+        font-size: 6rem;
         color: white;
-        text-align: center;
-        font-size: 8rem;
-        margin: 0%;
+        width: 17ch;
+        animation: typing 2s steps(17), blink .5s infinite step-end alternate;
+        overflow: hidden;
     }
+
+    @keyframes typing {
+        from{
+            width: 0;            
+        }
+    }
+    
+    @keyframes blink {
+        50%{ border-color:transparent;}
+    }
+
     p{
-        text-align: center;
-        color: white;
-        font-family: monospace;
-        font-size: 5rem;
+        overflow: hidden;
     }
 }
 
