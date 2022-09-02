@@ -684,8 +684,9 @@ main {
     justify-items: center;
   }
   .main-devs {
-    min-height: 60vh;
     border: black solid 10px;
     background-color: black;
+    margin: 0;
+    border: 0;
   }
 }/*# sourceMappingURL=styles.css.map */
