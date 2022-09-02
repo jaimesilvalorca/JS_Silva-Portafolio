@@ -38,6 +38,9 @@
     color: white;
 }
 
+body{
+    background-color: black;
+}
 .tittle---index {
     margin: 10%;
 
@@ -65,23 +68,79 @@
         width: 400px;
         border: 10px solid black;
     }
-
+    .container-index{
+        margin-right: 20%;
+    }
     .container-index h2{
         color: white;
         text-align: center;
-        font-size: 60px;
+        font-size: 50px;
     }
     p{
         color: white;
         margin-top: 50px;
-        font-size: 30px;
+        font-size: 20px;
         text-align: justify;
     }
 
 
 }
 
+.program-cover{
+    background:url(../assets/img/cover11.jpg) no-repeat center;
+    background-size: cover;
+    min-height: 80vh;
+}
 
+.main-index{
+    background-color: black;
+}
+
+.program-text{
+    display: grid;
+    grid-template-rows: repeat(2,1fr);
+    justify-items: center;
+
+    h2{
+        margin-top: 10%;
+        color: white;
+        font-size: 80px;
+
+    }
+    p{
+        margin-top: 1%;
+        color: white;
+        font-size: 40px;
+        text-align: justify;
+        margin-left: 10%;
+        margin-right: 10%;
+    }
+}
+
+.progam-card{
+    background-color: black;
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    justify-content: center;
+    justify-items: center;
+    margin: 10%;
+
+    h2{
+        color: white;
+        text-align: center;
+
+    }
+
+    p{
+        color: white;
+        text-align: center;
+    }
+}
+
+.index-card{
+    border: solid 3px rgb(39, 39, 39);
+    margin: 3%;
+}
 
 
 footer {
