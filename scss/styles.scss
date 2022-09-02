@@ -167,8 +167,7 @@ main {
 
 .about-main {
     padding-top: 20px;
-    background-image: url(../assets/img/cover1.jpg);
-    background-size: cover;
+    background-color: black;
     opacity: 90%;
     border: 15px solid rgb(219, 219, 219);
 }
@@ -212,12 +211,24 @@ main {
     font-size: 40px;
     text-align: center;
     padding-bottom: 15px;
-    color: #ffff
+    color: #ffff;
 }
 
-.text-1 {
-    @include txt-fontsiz;
-    color: #ffff
+.text-about{
+    font-size: 40px;
+    padding-bottom: 15px;
+    color: #ffff;
+    display: grid;
+    grid-template-rows: repeat(4,fr);
+    margin: 0 30% 0 30%;
+    padding: 0;
+    border: 0;
+    li{
+        color: #ffff;      
+        font-size: 1.4rem;
+        text-align: justify;
+        margin-bottom: 2%
+    }
 }
 
 .text-2 {
