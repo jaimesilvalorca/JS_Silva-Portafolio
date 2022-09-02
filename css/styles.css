@@ -13,7 +13,7 @@
   padding: 0;
   margin: 0;
   box-sizing: border-box;
-  font-family: "Edu SA Beginner", cursive;
+  font-family: "poppins", sans-serif;
   color: black;
 }
 
@@ -36,7 +36,7 @@
 }
 
 .nav-link:hover {
-  transform: scale(1.2, 1.2);
+  transform: scale(1.1, 1.1);
   transition: 0.5s ease-out;
   color: white !important;
   text-decoration: underline;
@@ -48,170 +48,42 @@
   color: white;
 }
 
-.tittle--index {
-  margin-top: 10%;
-  margin-left: 25%;
+.tittle---index {
+  margin: 10%;
 }
-.tittle--index h1 {
-  display: block;
-  font-family: monospace;
-  white-space: nowrap;
-  border-right: 4px solid;
-  font-size: 6rem;
+.tittle---index h1 {
+  text-align: center;
   color: white;
-  width: 17ch;
-  -webkit-animation: typing 2s steps(17), blink 0.5s infinite step-end alternate;
-          animation: typing 2s steps(17), blink 0.5s infinite step-end alternate;
-  overflow: hidden;
+  font-size: 6rem;
 }
-@-webkit-keyframes typing {
-  from {
-    width: 0;
-  }
-}
-@keyframes typing {
-  from {
-    width: 0;
-  }
-}
-@-webkit-keyframes blink {
-  50% {
-    border-color: transparent;
-  }
-}
-@keyframes blink {
-  50% {
-    border-color: transparent;
-  }
-}
-.tittle--index p {
-  overflow: hidden;
+.tittle---index h3 {
+  text-align: center;
+  color: white;
+  font-size: 5.5rem;
 }
 
-.main-index {
-  background-color: black;
+.first-section-index {
   display: grid;
   grid-template-columns: repeat(2, 1fr);
   justify-items: center;
-}
-.main-index h2 {
-  color: white;
-  font-size: 3rem;
-  text-align: center;
-}
-.main-index img {
-  height: 800px;
-  width: auto;
-  border: solid black 30px;
-}
-.main-index p {
-  text-align: justify;
-  color: white;
-  font-size: 2rem;
-}
-
-.container-index {
-  display: inline-block;
-  margin: 5%;
-  padding-top: 20%;
-}
-
-.container-img {
-  display: flex;
-  justify-items: center;
   align-items: center;
+  background-color: black;
 }
-
-/*.container-tittle-index{
-    display:flex;
-    justify-content: center;
-    align-items: center;
+.first-section-index .container-img img {
+  height: 600px;
+  width: 400px;
+  border: 10px solid black;
 }
-*/
-/*
-
-.text-cover{
-    position: relative;
-    display: inline-block;
-    text-align: center;
-}
-
-.text-cover h1{
-    position: absolute;
-    top: 10px;
-    left: 10px;
-    text-align: left;
-    -webkit-backface-visibility: hidden;
-    backface-visibility: hidden
-} 
-
-*/
-.middle-tittle h2 {
+.first-section-index .container-index h2 {
+  color: white;
   text-align: center;
-  font-size: 40px;
+  font-size: 60px;
+}
+.first-section-index p {
   color: white;
-}
-.middle-tittle p {
-  padding: 20px 300px 50px 300px;
-  margin: auto;
-  text-align: center;
-  font-size: x-large;
-  color: white;
-}
-
-.intro {
-  height: auto;
-  color: white;
-}
-
-.icon-section {
-  display: grid;
-  grid-template-columns: repeat(3, 1fr);
-  justify-items: center;
-  text-align: center;
-  width: 80%;
-  margin: auto;
-  color: white;
-}
-.icon-section .icons {
-  display: grid;
-  grid-template-columns: repeat(3, 1fr);
-  justify-items: center;
-  display: inline-block;
-}
-.icon-section .icons i {
-  font-size: 80px;
-  transition: 1s;
-  color: white;
-}
-.icon-section .icons h3 {
+  margin-top: 50px;
   font-size: 30px;
-  font-weight: 500;
-  padding-bottom: 5px;
-  padding-top: 30px;
-  color: white;
-}
-.icon-section .icons p {
-  display: grid;
-  grid-template-columns: repeat(3, 1fr);
-  display: inline-block;
-  font-size: larger;
   text-align: justify;
-  padding-left: 10px;
-  padding-right: 10px;
-  color: white;
-}
-
-.fa-gamepad {
-  color: white;
-}
-
-.fa-hand-peace {
-  color: white;
-}
-
-.fa-bullhorn {
-  color: white;
 }
 
 .icon-section .icons i:hover {
@@ -520,88 +392,8 @@ main {
   min-height: 85vh;
 }
 
-/*Desktop*/
-@media screen and (max-width: 1024px) {
-  .tittle--index {
-    margin-top: 10%;
-    margin-left: 25%;
-  }
-  .tittle--index h1 {
-    display: block;
-    font-family: monospace;
-    white-space: nowrap;
-    border-right: 4px solid;
-    font-size: 4rem;
-    color: white;
-    width: 17ch;
-    -webkit-animation: typing 2s steps(17), blink 0.5s infinite step-end alternate;
-            animation: typing 2s steps(17), blink 0.5s infinite step-end alternate;
-    overflow: hidden;
-  }
-  @-webkit-keyframes typing {
-    from {
-      width: 0;
-    }
-  }
-  @keyframes typing {
-    from {
-      width: 0;
-    }
-  }
-  @-webkit-keyframes blink {
-    50% {
-      border-color: transparent;
-    }
-  }
-  @keyframes blink {
-    50% {
-      border-color: transparent;
-    }
-  }
-  .tittle--index p {
-    overflow: hidden;
-  }
-}
 /*tablet*/
 @media only screen and (max-width: 768px) {
-  .tittle--index {
-    margin-top: 30%;
-  }
-  .tittle--index h1 {
-    display: block;
-    font-family: monospace;
-    white-space: nowrap;
-    border-right: 4px solid;
-    font-size: 3rem;
-    color: white;
-    width: 17ch;
-    -webkit-animation: typing 2s steps(17), blink 0.5s infinite step-end alternate;
-            animation: typing 2s steps(17), blink 0.5s infinite step-end alternate;
-    overflow: hidden;
-  }
-  @-webkit-keyframes typing {
-    from {
-      width: 0;
-    }
-  }
-  @keyframes typing {
-    from {
-      width: 0;
-    }
-  }
-  @-webkit-keyframes blink {
-    50% {
-      border-color: transparent;
-    }
-  }
-  @keyframes blink {
-    50% {
-      border-color: transparent;
-    }
-  }
-  .tittle--index p {
-    overflow: hidden;
-  }
   .main-index {
     background-color: black;
     display: grid;
@@ -692,41 +484,20 @@ main {
   header {
     flex-direction: column;
   }
-  /* index */
-  .tittle--index {
-    margin-top: 60%;
-    margin-left: 10%;
+  .tittle---index {
+    margin-top: 49%;
   }
-  .tittle--index h1 {
-    font-family: monospace;
-    border-right: 4px solid;
-    font-size: 30px;
+  .tittle---index h1 {
+    text-align: center;
     color: white;
-    -webkit-animation: typing 2s steps(17), blink 0.5s infinite step-end alternate;
-            animation: typing 2s steps(17), blink 0.5s infinite step-end alternate;
-    overflow: hidden;
-    word-wrap: break-word;
+    font-size: 2rem;
   }
-  @-webkit-keyframes typing {
-    from {
-      width: 0;
-    }
+  .tittle---index h3 {
+    text-align: center;
+    color: white;
+    font-size: 1.5rem;
   }
-  @keyframes typing {
-    from {
-      width: 0;
-    }
-  }
-  @-webkit-keyframes blink {
-    50% {
-      border-color: transparent;
-    }
-  }
-  @keyframes blink {
-    50% {
-      border-color: transparent;
-    }
-  }
+  /* index */
   .main-index {
     background-color: black;
     display: grid;
