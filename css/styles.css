@@ -176,6 +176,14 @@ main {
   width: 50%;
 }
 
+.body-devs {
+  background-color: black !important;
+}
+
+.header-devs {
+  background-color: black !important;
+}
+
 .text-me {
   display: grid;
   grid-template-columns: repeat(1, 1fr);
@@ -337,6 +345,16 @@ main {
   font-size: 50px;
   text-align: center;
   padding-bottom: 1rem;
+  padding-top: 3rem;
+}
+.title-devs h1 {
+  color: white;
+}
+
+.header-devs {
+  background: url(../assets/img/equipo.png) no-repeat center;
+  background-size: cover;
+  min-height: 80vh;
 }
 
 .wrap {
@@ -349,6 +367,10 @@ main {
 
 .dev-tittle {
   text-align: center;
+  color: white;
+}
+.dev-tittle h2 {
+  color: white;
 }
 
 .card-wrap {
@@ -374,6 +396,11 @@ main {
   left: 0;
   -webkit-backface-visibility: hidden;
   backface-visibility: hidden;
+}
+.front p,
+.back p {
+  text-align: justify;
+  margin: 3%;
 }
 
 .front {
@@ -411,15 +438,10 @@ main {
   background-size: cover;
 }
 
-.hongo {
-  margin-top: 20px;
-  height: 80px;
-  width: 80px;
-}
-
 .main-devs {
-  min-height: 90vh;
+  min-height: 60vh;
   background-color: black;
+  border: white solid 10px;
 }
 
 .main-index {
@@ -660,5 +682,10 @@ main {
     display: grid;
     grid-template-columns: repeat(1, 1fr);
     justify-items: center;
+  }
+  .main-devs {
+    min-height: 60vh;
+    border: black solid 10px;
+    background-color: black;
   }
 }/*# sourceMappingURL=styles.css.map */
