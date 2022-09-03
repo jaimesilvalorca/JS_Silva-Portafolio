@@ -15,6 +15,7 @@
   box-sizing: border-box;
   font-family: "poppins", sans-serif;
   color: black;
+  max-width: auto;
 }
 
 .navbar {

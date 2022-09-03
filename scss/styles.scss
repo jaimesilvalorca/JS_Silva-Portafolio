@@ -4,6 +4,7 @@
 
 * {
     @include resetnav;
+    max-width: auto;
 }
 
 .navbar {
@@ -27,6 +28,7 @@
 
 body{
     width:auto;
+
 }
 
 .nav-link:hover {
