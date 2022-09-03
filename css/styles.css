@@ -270,6 +270,15 @@ main {
 }
 
 /*galeria*/
+.main-gallery {
+  background-color: black !important;
+  border: solid 10px white;
+}
+
+.header-gallery {
+  background-color: black !important;
+}
+
 .title-gallery {
   text-align: center;
   font-size: 50px;
@@ -358,6 +367,18 @@ main {
   text-align: center;
   font-size: 25px;
   padding: 5px;
+}
+
+.fa-angle-right {
+  color: white;
+}
+
+.fa-xmark {
+  color: white;
+}
+
+.fa-angle-left {
+  color: white;
 }
 
 /*developers */
@@ -461,6 +482,22 @@ main {
 .main-devs {
   background-color: black;
   border: white solid 10px;
+}
+
+.main-index {
+  min-height: 60vh;
+}
+
+.main-gallery {
+  min-height: 90vh;
+}
+
+.main-contact {
+  min-height: 90vh;
+}
+
+.form {
+  min-height: 85vh;
 }
 
 /*tablet*/
