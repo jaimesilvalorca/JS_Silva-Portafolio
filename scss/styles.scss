@@ -25,8 +25,8 @@
     }
 }
 
-body{
-    width:auto;
+body {
+    width: auto;
 }
 
 .nav-link:hover {
@@ -147,19 +147,19 @@ body {
         text-align: center;
     }
 
-    .fa-html5{
+    .fa-html5 {
         color: white;
         text-align: center;
         font-size: 5rem;
     }
 
-    .fa-node-js{
+    .fa-node-js {
         color: white;
         text-align: center;
         font-size: 5rem;
     }
 
-    .fa-unity{
+    .fa-unity {
         color: white;
         text-align: center;
         font-size: 5rem;
@@ -282,12 +282,12 @@ main {
 
 /*galeria*/
 
-.main-gallery{
+.main-gallery {
     background-color: black !important;
     border: solid 10px white;
 }
 
-.header-gallery{
+.header-gallery {
     background-color: black !important;
 }
 
@@ -387,21 +387,17 @@ main {
     padding: 5px;
 }
 
-.fa-angle-right{
+.fa-angle-right {
     color: white;
 }
 
-.fa-xmark{
+.fa-xmark {
     color: white;
 }
 
-.fa-angle-left{
-    color: white;   
+.fa-angle-left {
+    color: white;
 }
-
-
-
-
 
 /*developers */
 
@@ -509,20 +505,30 @@ main {
     border: white solid 10px;
 }
 
-.main-index{
+.main-index {
     min-height: 60vh;
 }
 
-.main-gallery{
+.main-gallery {
     min-height: 90vh;
 }
 
-.main-contact{
+.main-contact {
     min-height: 90vh;
 }
 
-.form{
+/*formulario de contacto*/
+
+.header-contacto {
+    background: url(../assets/img/headerformm.jpg);
+    background-size: cover;
+    min-height: 80vh;
+}
+
+
+.form {
     min-height: 85vh;
+    background-color: black;
 }
 
 
@@ -561,29 +567,31 @@ main {
     .main-index {
         display: grid;
         grid-template-columns: repeat(1, 1fr);
-        grid-template-rows: repeat(3,1fr);
+        grid-template-rows: repeat(3, 1fr);
         height: fit-content;
     }
-    
+
     .first-section-index {
         display: grid;
         grid-template-columns: repeat(1, 1fr);
         grid-template-rows: repeat(2, 1fr);
         height: fit-content;
-        .container-img img{
+
+        .container-img img {
             height: 380px;
             width: 280px;
         }
 
-        .container-index{
+        .container-index {
             margin: auto;
             padding: 0;
 
-            h2{
-                
+            h2 {
+
                 font-size: 20px;
             }
-            p{
+
+            p {
                 font-size: 15px;
                 text-align: justify;
                 margin: 5%;
@@ -593,16 +601,17 @@ main {
 
     .program-cover {
         height: fit-content;
-        .program-text{
-            display: grid;
-            grid-template-columns: repeat(1,1fr);
-            grid-template-rows: repeat(1,1fr);
 
-            h2{
+        .program-text {
+            display: grid;
+            grid-template-columns: repeat(1, 1fr);
+            grid-template-rows: repeat(1, 1fr);
+
+            h2 {
                 font-size: 40px;
             }
 
-            p{
+            p {
                 padding-top: 15%;
                 margin: 10%;
                 font-size: 20px;
@@ -612,10 +621,10 @@ main {
         }
     }
 
-    .progam-card{
+    .progam-card {
         display: grid;
         grid-template-columns: repeat(1, 1fr);
-        grid-template-rows: repeat(3,1fr);
+        grid-template-rows: repeat(3, 1fr);
     }
 
     .container-index {
@@ -647,8 +656,6 @@ main {
         grid-template-rows: repeat(1, 1fr);
         min-height: 100vh;
         margin: auto;
-        padding-left: 10px;
-        padding-right: 50px
     }
 
     .text-me {
@@ -658,6 +665,11 @@ main {
         padding-left: 0;
         text-align: center;
 
+    }
+
+    .text-about {
+        margin: 2%;
+        padding: 0;
     }
 
     .me {
@@ -728,29 +740,31 @@ main {
     .main-index {
         display: grid;
         grid-template-columns: repeat(1, 1fr);
-        grid-template-rows: repeat(3,1fr);
+        grid-template-rows: repeat(3, 1fr);
         height: fit-content;
     }
-    
+
     .first-section-index {
         display: grid;
         grid-template-columns: repeat(1, 1fr);
         grid-template-rows: repeat(2, 1fr);
         height: fit-content;
-        .container-img img{
+
+        .container-img img {
             height: 380px;
             width: 280px;
         }
 
-        .container-index{
+        .container-index {
             margin: auto;
             padding: 0;
 
-            h2{
-                
+            h2 {
+
                 font-size: 20px;
             }
-            p{
+
+            p {
                 font-size: 15px;
                 text-align: justify;
                 margin: 5%;
@@ -760,16 +774,17 @@ main {
 
     .program-cover {
         height: fit-content;
-        .program-text{
-            display: grid;
-            grid-template-columns: repeat(1,1fr);
-            grid-template-rows: repeat(1,1fr);
 
-            h2{
+        .program-text {
+            display: grid;
+            grid-template-columns: repeat(1, 1fr);
+            grid-template-rows: repeat(1, 1fr);
+
+            h2 {
                 font-size: 40px;
             }
 
-            p{
+            p {
                 padding-top: 15%;
                 margin: 10%;
                 font-size: 20px;
@@ -779,10 +794,10 @@ main {
         }
     }
 
-    .progam-card{
+    .progam-card {
         display: grid;
         grid-template-columns: repeat(1, 1fr);
-        grid-template-rows: repeat(3,1fr);
+        grid-template-rows: repeat(3, 1fr);
     }
 
 

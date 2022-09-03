@@ -496,8 +496,16 @@ main {
   min-height: 90vh;
 }
 
+/*formulario de contacto*/
+.header-contacto {
+  background: url(../assets/img/headerformm.jpg);
+  background-size: cover;
+  min-height: 80vh;
+}
+
 .form {
   min-height: 85vh;
+  background-color: black;
 }
 
 /*tablet*/
@@ -604,8 +612,6 @@ main {
     grid-template-rows: repeat(1, 1fr);
     min-height: 100vh;
     margin: auto;
-    padding-left: 10px;
-    padding-right: 50px;
   }
   .text-me {
     flex-direction: column;
@@ -613,6 +619,10 @@ main {
     margin: auto;
     padding-left: 0;
     text-align: center;
+  }
+  .text-about {
+    margin: 2%;
+    padding: 0;
   }
   .me {
     flex-direction: column;
