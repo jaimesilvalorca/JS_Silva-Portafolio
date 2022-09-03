@@ -4,7 +4,6 @@
 
 * {
     @include resetnav;
-    max-width: auto;
 }
 
 .navbar {
@@ -28,7 +27,6 @@
 
 body{
     width:auto;
-
 }
 
 .nav-link:hover {
@@ -483,27 +481,10 @@ main {
 
 
 .main-devs {
-    min-height: 60vh;
     background-color: black;
     border: white solid 10px;
 }
 
-.main-index {
-    min-height: 60vh;
-}
-
-.main-gallery {
-
-    max-height: fit-content;
-}
-
-.main-contact {
-    min-height: 90vh;
-}
-
-.form {
-    min-height: 85vh;
-}
 
 /*tablet*/
 
@@ -686,18 +667,18 @@ main {
     }
 
     .tittle---index {
-        margin-top: 49%;
+        margin-top: 80%;
 
         h1 {
             text-align: center;
             color: white;
-            font-size: 2rem;
+            font-size: 3rem;
         }
 
         h3 {
             text-align: center;
             color: white;
-            font-size: 1.5rem;
+            font-size: 2rem;
         }
     }
 

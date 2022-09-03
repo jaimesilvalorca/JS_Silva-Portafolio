@@ -15,7 +15,6 @@
   box-sizing: border-box;
   font-family: "poppins", sans-serif;
   color: black;
-  max-width: auto;
 }
 
 .navbar {
@@ -460,27 +459,8 @@ main {
 }
 
 .main-devs {
-  min-height: 60vh;
   background-color: black;
   border: white solid 10px;
-}
-
-.main-index {
-  min-height: 60vh;
-}
-
-.main-gallery {
-  max-height: -webkit-fit-content;
-  max-height: -moz-fit-content;
-  max-height: fit-content;
-}
-
-.main-contact {
-  min-height: 90vh;
-}
-
-.form {
-  min-height: 85vh;
 }
 
 /*tablet*/
@@ -632,17 +612,17 @@ main {
     flex-direction: column;
   }
   .tittle---index {
-    margin-top: 49%;
+    margin-top: 80%;
   }
   .tittle---index h1 {
     text-align: center;
     color: white;
-    font-size: 2rem;
+    font-size: 3rem;
   }
   .tittle---index h3 {
     text-align: center;
     color: white;
-    font-size: 1.5rem;
+    font-size: 2rem;
   }
   /* index */
   .main-index {
