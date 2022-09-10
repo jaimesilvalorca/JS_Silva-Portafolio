@@ -566,5 +566,6 @@ main {
     display: grid;
     grid-template-columns: repeat(1, 1fr);
     justify-items: center;
+    justify-content: space-around;
   }
 }/*# sourceMappingURL=styles.css.map */
